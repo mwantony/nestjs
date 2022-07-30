@@ -4,9 +4,9 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class LivrosService {
   livros: Livro[] = [
-    new Livro('Liv01', 'Livro TDD e BDD na prática', 29.9),
+    /*     new Livro('Liv01', 'Livro TDD e BDD na prática', 29.9),
     new Livro('Liv02', 'Livro Iniciando com Flutter', 39.9),
-    new Livro('Liv03', 'Livro Inteligência artificial como serviço', 29.9),
+    new Livro('Liv03', 'Livro Inteligência artificial como serviço', 29.9), */
   ];
 
   obterTodos(): Livro[] {
